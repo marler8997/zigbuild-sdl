@@ -1,0 +1,2 @@
+* Update zig's ConfigHeader step to enforce that all options are specified
+* add `std.Build.haveHeader`

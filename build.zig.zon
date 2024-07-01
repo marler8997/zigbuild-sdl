@@ -1,0 +1,16 @@
+.{
+    .name = "SDL",
+    .minimum_zig_version = "0.12.0",
+    .version = "2.30.4",
+    .dependencies = .{
+        .sdl = .{
+            .url = "https://github.com/libsdl-org/SDL/archive/92fe3b19c868ad062c323dde2cfc9d8b4bfdd785.tar.gz",
+            .hash = "1220ae592664f9eb122f333b2b326e9c5e118e437975c7e1b9bcb2e73301136789a0",
+        },
+    },
+    .paths = .{
+        "README.md",
+        "build.zig",
+        "build.zig.zon",
+    },    
+}
